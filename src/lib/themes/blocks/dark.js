@@ -37,6 +37,12 @@ const blockColors = {
         tertiary: '#5CB1D6',
         quaternary: '#5CB1D6'
     },
+    camera: {
+        primary: '#4C1616',
+        secondary: '#4C4C4C',
+        tertiary: '#FF4C4C',
+        quaternary: '#FF4C4C'
+    },
     pen: {
         primary: '#03251C',
         secondary: '#4C4C4C',
@@ -48,6 +54,12 @@ const blockColors = {
         secondary: '#4C4C4C',
         tertiary: '#59C059',
         quaternary: '#59C059'
+    },
+    string: {
+        primary: '#122b24',
+        secondary: '#4c4c4c',
+        tertiary: '#419f86',
+        quaternary: '#419f86'
     },
     data: {
         primary: '#331C05',

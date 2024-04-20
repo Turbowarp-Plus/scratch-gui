@@ -3,6 +3,16 @@ import defaultsDeep from 'lodash.defaultsdeep';
 import * as accentPurple from './accent/purple';
 import * as accentBlue from './accent/blue';
 import * as accentRed from './accent/red';
+import * as accentOrange from './accent/orange';
+import * as accentLightBlue from './accent/lightblue';
+import * as accentCorruptBlue from './accent/corruptblue';
+import * as accentBlack from './accent/black';
+import * as accentMagenta from './accent/magenta';
+import * as accentMint from './accent/mint';
+import * as accentLightGreen from './accent/lightgreen';
+import * as accentGray from './accent/gray';
+import * as accentGreen from './accent/green';
+import * as accentYellow from './accent/yellow';
 
 import * as guiLight from './gui/light';
 import * as guiDark from './gui/dark';
@@ -14,10 +24,30 @@ import * as blocksDark from './blocks/dark';
 const ACCENT_PURPLE = 'purple';
 const ACCENT_BLUE = 'blue';
 const ACCENT_RED = 'red';
+const ACCENT_ORANGE = 'orange';
+const ACCENT_LIGHTBLUE = 'lightblue';
+const ACCENT_CORRUPTBLUE = 'corruptblue';
+const ACCENT_BLACK = 'black';
+const ACCENT_MAGENTA = 'magenta';
+const ACCENT_MINT = 'mint';
+const ACCENT_LIGHTGREEN = 'lightgreen';
+const ACCENT_GRAY = 'gray';
+const ACCENT_GREEN = 'green';
+const ACCENT_YELLOW = 'yellow';
 const ACCENT_MAP = {
     [ACCENT_PURPLE]: accentPurple,
     [ACCENT_BLUE]: accentBlue,
-    [ACCENT_RED]: accentRed
+    [ACCENT_RED]: accentRed,
+    [ACCENT_ORANGE]: accentOrange,
+    [ACCENT_LIGHTBLUE]: accentLightBlue,
+    [ACCENT_BLACK]: accentBlack,
+    [ACCENT_CORRUPTBLUE]: accentCorruptBlue,
+    [ACCENT_MAGENTA]: accentMagenta,
+    [ACCENT_MINT]: accentMint,
+    [ACCENT_LIGHTGREEN]: accentLightGreen,
+    [ACCENT_GRAY]: accentGray,
+    [ACCENT_GREEN]: accentGreen,
+    [ACCENT_YELLOW]: accentYellow
 };
 const ACCENT_DEFAULT = ACCENT_RED;
 
@@ -143,10 +173,20 @@ export {
     Theme,
     defaultBlockColors,
 
+    ACCENT_GRAY,
     ACCENT_RED,
     ACCENT_PURPLE,
     ACCENT_BLUE,
+    ACCENT_ORANGE,
+    ACCENT_LIGHTBLUE,
+    ACCENT_CORRUPTBLUE,
+    ACCENT_BLACK,
+    ACCENT_MAGENTA,
+    ACCENT_MINT,
+    ACCENT_LIGHTGREEN,
     ACCENT_MAP,
+    ACCENT_GREEN,
+    ACCENT_YELLOW,
 
     GUI_LIGHT,
     GUI_DARK,

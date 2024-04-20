@@ -7,7 +7,10 @@ import {connect} from 'react-redux';
 import check from './check.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import {MenuItem, Submenu} from '../menu/menu.jsx';
-import {ACCENT_BLUE, ACCENT_MAP, ACCENT_PURPLE, ACCENT_RED, Theme} from '../../lib/themes/index.js';
+import {ACCENT_BLACK, ACCENT_LIGHTGREEN, ACCENT_MINT, ACCENT_MAGENTA, ACCENT_LIGHTBLUE, ACCENT_CORRUPTBLUE,
+    ACCENT_ORANGE, ACCENT_GRAY,
+    ACCENT_BLUE, ACCENT_GREEN, ACCENT_YELLOW, ACCENT_MAP, ACCENT_PURPLE,
+    ACCENT_RED, Theme} from '../../lib/themes/index.js';
 import {openAccentMenu, accentMenuOpen, closeSettingsMenu} from '../../reducers/menus.js';
 import {setTheme} from '../../reducers/theme.js';
 import {persistTheme} from '../../lib/themes/themePersistance.js';
@@ -28,6 +31,56 @@ const options = defineMessages({
         defaultMessage: 'Blue',
         description: 'Name of the blue color scheme. Matches Scratch before the high contrast update.',
         id: 'tw.accent.blue'
+    },
+    [ACCENT_ORANGE]: {
+        defaultMessage: 'Orange',
+        description: 'Name of the orange color scheme, used by NitroBolt by default.',
+        id: 'tw.accent.orange'
+    },
+    [ACCENT_LIGHTBLUE]: {
+        defaultMessage: 'Light Blue',
+        description: 'Name of the corrupted blue color scheme, used by PenguinMod by default.',
+        id: 'tw.accent.lightblue'
+    },
+    [ACCENT_CORRUPTBLUE]: {
+        defaultMessage: 'Corrupted Blue',
+        description: 'Name of the corrupted blue color scheme, used by ElectraMod by default.',
+        id: 'tw.accent.corruptblue'
+    },
+    [ACCENT_BLACK]: {
+        defaultMessage: 'Black',
+        description: 'Name of the black color scheme, used by ElectraMod as alternative accent.',
+        id: 'tw.accent.black'
+    },
+    [ACCENT_MAGENTA]: {
+        defaultMessage: 'Magenta',
+        description: 'Name of the magenta color scheme, used by Snail IDE by default.',
+        id: 'tw.accent.magenta'
+    },
+    [ACCENT_MINT]: {
+        defaultMessage: 'Green Mint',
+        description: 'Name of the mint color scheme, used by the legacy version of Snail IDE by default.',
+        id: 'tw.accent.mint'
+    },
+    [ACCENT_LIGHTGREEN]: {
+        defaultMessage: 'Light Green',
+        description: 'Name of the mint color scheme, used by DinosaurMod by default.',
+        id: 'tw.accent.lightgreen'
+    },
+    [ACCENT_GRAY]: {
+        defaultMessage: 'Gray',
+        description: 'Name of the gray color scheme, used by Unsandboxed by default.',
+        id: 'tw.accent.gray'
+    },
+    [ACCENT_GREEN]: {
+        defaultMessage: 'Green',
+        description: 'Name of the green color scheme. Matches Scratch Lab.',
+        id: 'tw.accent.green'
+    },
+    [ACCENT_YELLOW]: {
+        defaultMessage: 'Yellow',
+        description: 'Name of the yellow color scheme. used by JoeMod by default.',
+        id: 'tw.accent.yellow'
     }
 });
 
