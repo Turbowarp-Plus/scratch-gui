@@ -5,7 +5,6 @@ const guiColors = {
     'looks-transparent': 'hsla(92, 61%, 53%, 0.35)',
     'looks-light-transparent': 'hsla(92, 61%, 53%, 0.15)',
     'looks-secondary-dark': '#587B3A'
-
 };
 
 const blockColors = {};
