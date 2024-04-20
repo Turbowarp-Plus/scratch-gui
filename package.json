@@ -24,7 +24,7 @@
     "test:lint": "eslint . --ext .js,.jsx",
     "test:unit": "jest test[\\\\/]unit[\\\\/]addons",
     "test:smoke": "jest --runInBand test[\\\\/]smoke",
-    "watch": "webpack --colors --watch --true"
+    "watch": "webpack --colors --watch"
   },
   "config": {
     "commitizen": {
