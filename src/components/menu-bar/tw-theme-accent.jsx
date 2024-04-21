@@ -7,7 +7,8 @@ import {connect} from 'react-redux';
 import check from './check.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import {MenuItem, Submenu} from '../menu/menu.jsx';
-import {ACCENT_BLACK, ACCENT_LIGHTGREEN, ACCENT_MINT, ACCENT_MAGENTA, ACCENT_LIGHTBLUE, ACCENT_CORRUPTBLUE,
+import {ACCENT_PINK, ACCENT_LIGHTGREEN, ACCENT_MINT, ACCENT_MAGENTA,
+    ACCENT_WHITE, ACCENT_BLACK, ACCENT_LIGHTBLUE, ACCENT_CORRUPTBLUE,
     ACCENT_ORANGE, ACCENT_GRAY,
     ACCENT_BLUE, ACCENT_GREEN, ACCENT_YELLOW, ACCENT_MAP, ACCENT_PURPLE,
     ACCENT_RED, Theme} from '../../lib/themes/index.js';
@@ -51,6 +52,16 @@ const options = defineMessages({
         defaultMessage: 'Black',
         description: 'Name of the black color scheme, used by ElectraMod as alternative accent.',
         id: 'tw.accent.black'
+    },
+    [ACCENT_WHITE]: {
+        defaultMessage: 'White',
+        description: 'Name of the white color scheme, used by ElectraMod as second alternative accent.',
+        id: 'tw.accent.white'
+    },
+    [ACCENT_PINK]: {
+        defaultMessage: 'Pink',
+        description: 'Name of the pink color scheme, used by XPlab by default.',
+        id: 'tw.accent.pink'
     },
     [ACCENT_MAGENTA]: {
         defaultMessage: 'Magenta',

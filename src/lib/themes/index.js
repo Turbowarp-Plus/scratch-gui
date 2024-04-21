@@ -7,6 +7,8 @@ import * as accentOrange from './accent/orange';
 import * as accentLightBlue from './accent/lightblue';
 import * as accentCorruptBlue from './accent/corruptblue';
 import * as accentBlack from './accent/black';
+import * as accentWhite from './accent/white';
+import * as accentPink from './accent/pink';
 import * as accentMagenta from './accent/magenta';
 import * as accentMint from './accent/mint';
 import * as accentLightGreen from './accent/lightgreen';
@@ -28,6 +30,8 @@ const ACCENT_ORANGE = 'orange';
 const ACCENT_LIGHTBLUE = 'lightblue';
 const ACCENT_CORRUPTBLUE = 'corruptblue';
 const ACCENT_BLACK = 'black';
+const ACCENT_WHITE = 'white';
+const ACCENT_PINK = 'pink';
 const ACCENT_MAGENTA = 'magenta';
 const ACCENT_MINT = 'mint';
 const ACCENT_LIGHTGREEN = 'lightgreen';
@@ -41,6 +45,8 @@ const ACCENT_MAP = {
     [ACCENT_ORANGE]: accentOrange,
     [ACCENT_LIGHTBLUE]: accentLightBlue,
     [ACCENT_BLACK]: accentBlack,
+    [ACCENT_WHITE]: accentWhite,
+    [ACCENT_PINK]: accentPink,
     [ACCENT_CORRUPTBLUE]: accentCorruptBlue,
     [ACCENT_MAGENTA]: accentMagenta,
     [ACCENT_MINT]: accentMint,
@@ -49,7 +55,7 @@ const ACCENT_MAP = {
     [ACCENT_GREEN]: accentGreen,
     [ACCENT_YELLOW]: accentYellow
 };
-const ACCENT_DEFAULT = ACCENT_RED;
+const ACCENT_DEFAULT = ACCENT_PINK;
 
 const GUI_LIGHT = 'light';
 const GUI_DARK = 'dark';
@@ -181,6 +187,8 @@ export {
     ACCENT_LIGHTBLUE,
     ACCENT_CORRUPTBLUE,
     ACCENT_BLACK,
+    ACCENT_WHITE,
+    ACCENT_PINK,
     ACCENT_MAGENTA,
     ACCENT_MINT,
     ACCENT_LIGHTGREEN,

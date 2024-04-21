@@ -319,7 +319,7 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="{APP_NAME} is an experimental version of Turbowarp that adds more supports, more accents and more."
+                                        defaultMessage="{APP_NAME} is an Unofficial lab version of Turbowarp that adds more supports, more accents and more. "
                                         description="Description of TurboWarp on the homepage"
                                         id="tw.home.description"
                                         values={{
