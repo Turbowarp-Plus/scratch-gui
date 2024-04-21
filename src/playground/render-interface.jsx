@@ -98,7 +98,7 @@ const Footer = () => (
             <div className={styles.footerText}>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="TurboWarp Plus is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+                    defaultMessage="XPlab is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
                     description="Disclaimer that TurboWarp is not connected to Scratch"
                     id="tw.footer.disclaimer"
                 />
