@@ -46,7 +46,7 @@ const ACCENT_MAP = {
     [ACCENT_LIGHTBLUE]: accentLightBlue,
     [ACCENT_BLACK]: accentBlack,
     [ACCENT_WHITE]: accentWhite,
-    [ACCENT_PINK]: accentPink,
+    [ACCENT_PINK]: accentPink, // Default
     [ACCENT_CORRUPTBLUE]: accentCorruptBlue,
     [ACCENT_MAGENTA]: accentMagenta,
     [ACCENT_MINT]: accentMint,
